@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, GoatContainer, TextContainer } from './style';
 import bodezinho from '../../assets/bodezinho.png';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
  return(
@@ -9,7 +10,7 @@ function HomePage() {
       <div>
         <h2>Wise</h2>
         <h1>Goat</h1>
-        <button>Pedir Conselho</button>
+        <Link to="/conselho"><button>Pedir Conselho</button></Link>
       </div>
      </TextContainer>
 
