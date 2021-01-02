@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import HomePage from './pages/HomePage';
+import Conselho from './pages/Conselho';
 import {createGlobalStyle} from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -16,7 +16,7 @@ body {
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <HomePage />
+    <Conselho />
   </React.StrictMode>,
   document.getElementById('root')
 );
