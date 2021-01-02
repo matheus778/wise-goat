@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import Conselho from './pages/Conselho';
 import {createGlobalStyle} from 'styled-components';
+import Routes from './Routes';
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
@@ -16,7 +16,7 @@ body {
 ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
-    <Conselho />
+    <Routes/>
   </React.StrictMode>,
   document.getElementById('root')
 );
