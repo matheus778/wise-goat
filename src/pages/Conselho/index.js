@@ -7,7 +7,6 @@ function Conselho() {
 
   function buscarConselho() {
     let buscaApi;
-    let buscaImagem;
     fetch('https://api.adviceslip.com/advice',{method:'get'})
     .then(res=>res.json())
     .then(res=>{
